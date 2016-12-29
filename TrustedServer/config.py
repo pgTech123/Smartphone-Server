@@ -1,0 +1,16 @@
+# Modify this file with your configs
+PHONE_MASTER_IP = '192.168.100.102'
+PHONE_MASTER_PORT = 27
+
+SERVER_IP = ''
+SERVER_PORT = 9112
+
+SAFEPAGE = 'https://www.asdasderw.wa' #'https://google.ca'
+
+TRUSTED_SERVER_IP = '127.0.0.1'
+TRUSTED_SERVER_PORT = 3659
+
+# WARNING: HEARTBEAT MUST BE BIGGER THAN ALLOWED_RESPONSE_TIME.
+HEARTHBEAT = 5    # seconds
+ALLOWED_RESPONSE_TIME = 2 # seconds
+

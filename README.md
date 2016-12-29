@@ -15,7 +15,11 @@ What You'll Need
 
 Architecture
 -----
-Currently, the strategy is to use a server as a man in the middle. If everything work as expected, the server will act as a proxy and redirect every request to our cellphone server. Although, if the smartphone server stop responding, the web server will take the relay and deliver the website (backup copy of the website(s) hosted on our servers). The web server acting as a proxy can also be used to collect stats about up/down time of the smartphone server, latency, ...
+Currently, the strategy is to use a third party server as a man in the middle. If everything work as expected, the server will act as a proxy and redirect every request to our cellphone server. Although, if the smartphone server stop responding, the web server will take the relay and redirect all request to itself. That way, we make sure the website is never down because of a technical problem, and still, we can prove the concept by collecting statistics about up vs down time, and improve the design. 
+
+Getting Started
+-----------
+See [a Getting Started](Getting_Started.md)
 
 Feel Free to Contribute or to Use The Information Contained Here to Make The World a Better Place :)
 ----

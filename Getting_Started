@@ -1,0 +1,15 @@
+# Hardware Setup
+1. TODO
+# Software setup
+1. Connect to trusted server via ssh and create a folder.
+~~~~
+ssh username@ipAddress
+mkdir Cellphone_Server
+cd Cellphone_Server
+mkdir Trusted_Server
+exit
+~~~~
+2. Copy the proxy script in the folder just created
+~~~~
+scp TrustedServer/proxy.py username@ipAddress:Cellphone_Server/Trusted_Server
+~~~~
